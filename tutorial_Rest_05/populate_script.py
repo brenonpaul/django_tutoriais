@@ -4,7 +4,7 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'config.settings')
 django.setup()
 
 from faker import Faker
-from validade_docbr import CPF
+from validate_docbr import CPF
 import random
 from clientes.models import Cliente
 
